@@ -1,0 +1,4 @@
+
+config istore 'istore'
+	option hide_docker '1'
+

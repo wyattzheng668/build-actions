@@ -1,0 +1,29 @@
+
+config global
+	option koolproxy_port '0'
+	option startup_delay '0'
+	option koolproxy_acl_default '1'
+	option koolproxy_mode '1'
+	option koolproxy_rules 'koolproxy.txt daily.txt kp.dat'
+	option koolproxy_ipv6 '0'
+	option time_update '4'
+	option thirdparty_rules 'antiad.txt'
+	option enabled '0'
+
+config usetips
+	option load '0'
+	option name '1'
+	option url '1'
+
+config acl_rule
+	option remarks 'zhy'
+	option ipaddr '192.168.50.6'
+	option mac '04:d9:f5:80:db:43'
+	option proxy_mode '2'
+
+config acl_rule
+	option remarks '苹果'
+	option ipaddr '192.168.50.28'
+	option mac 'f2:19:4d:85:4c:58'
+	option proxy_mode '1'
+
